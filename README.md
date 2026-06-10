@@ -93,14 +93,6 @@ or
 npm run dev
 ```
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Teacher Dashboard
-* Attendance Marking Page
-* Attendance Reports
 
 ## 🎯 Use Cases
 
@@ -122,8 +114,4 @@ Add screenshots of:
 **Eshwar Chowdary T**
 
 * GitHub: https://github.com/Eshwar-Tamminidi
-* LinkedIn: Add your LinkedIn profile here
-
-## 📄 License
-
-This project is licensed under the MIT License.
+* LinkedIn: https://www.linkedin.com/in/eshwar-chowdary-t-38a655298/
