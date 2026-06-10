@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#16A34A</color>
+    <color name="accent_red">#DC2626</color>
+    <color name="black">#1A1A1A</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="gray">#6B7280</color>
+    <color name="light_gray">#F3F4F6</color>
+    <color name="primary">#2563AB</color>
+    <color name="primary_dark">#1A3C6E</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">QR Attendance</string>
+    <style name="Theme.QRAttendance" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

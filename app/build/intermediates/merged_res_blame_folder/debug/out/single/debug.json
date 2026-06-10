@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_activity_teacher_dashboard.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/activity_teacher_dashboard.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_activity_register.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_dialog_enroll_class.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/dialog_enroll_class.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_activity_student_dashboard.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/activity_student_dashboard.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_activity_qr_display.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/activity_qr_display.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_item_class.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/item_class.xml"
+    },
+    {
+        "merged": "com.yourname.qrattendance.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.yourname.qrattendance.app-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/layout_dialog_create_class.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/layout/dialog_create_class.xml"
+    },
+    {
+        "merged": "com.yourname.qrattendance.app-merged_res-53:/mipmap_ic_launcher.xml.flat",
+        "source": "com.yourname.qrattendance.app-main-55:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/mipmap_ic_launcher.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-merged_res-53:/mipmap_ic_launcher_round.xml.flat",
+        "source": "/Users/eshwarchowdaryt/.gradle/daemon/8.2/com.yourname.qrattendance.app-main-55:/mipmap/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.yourname.qrattendance.app-merged_res-53:/mipmap_ic_launcher_round.xml.flat",
+        "source": "com.yourname.qrattendance.app-main-55:/mipmap/ic_launcher_round.xml"
+    }
+]

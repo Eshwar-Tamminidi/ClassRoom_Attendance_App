@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourname.qrattendance"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Camera permission for QR scanning -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:5:5-65
+12-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:5:22-62
+13
+14    <uses-feature
+14-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:6:5-85
+15        android:name="android.hardware.camera"
+15-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:6:19-57
+16        android:required="false" />
+16-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:6:58-82
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.yourname.qrattendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.yourname.qrattendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+23
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+25        android:name="android.hardware.camera.front"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+26        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+27    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+29        android:name="android.hardware.camera.autofocus"
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+32        android:name="android.hardware.camera.flash"
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+35        android:name="android.hardware.screen.landscape"
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+38        android:name="android.hardware.wifi"
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+40
+41    <application
+41-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:8:5-31:19
+42        android:name="com.yourname.qrattendance.QRAttendanceApp"
+42-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:9:9-40
+43        android:allowBackup="true"
+43-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:10:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.12.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:11:9-43
+48        android:label="QR Attendance"
+48-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:12:9-38
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:13:9-54
+50        android:supportsRtl="true"
+50-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:14:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.QRAttendance" >
+52-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:15:9-50
+53        <activity
+53-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:17:9-24:20
+54            android:name="com.yourname.qrattendance.MainActivity"
+54-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:18:13-41
+55            android:exported="true" >
+55-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:19:13-36
+56            <intent-filter>
+56-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:20:13-23:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:21:17-69
+57-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:21:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:22:17-77
+59-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:22:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.yourname.qrattendance.ui.auth.RegisterActivity" />
+62-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:26:9-62
+62-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:26:19-59
+63        <activity android:name="com.yourname.qrattendance.ui.teacher.TeacherDashboardActivity" />
+63-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:27:9-73
+63-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:27:19-70
+64        <activity android:name="com.yourname.qrattendance.ui.teacher.QRDisplayActivity" />
+64-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:28:9-66
+64-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:28:19-63
+65        <activity android:name="com.yourname.qrattendance.ui.student.StudentDashboardActivity" />
+65-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:29:9-73
+65-->/Users/eshwarchowdaryt/Downloads/QRAttendanceApp/app/src/main/AndroidManifest.xml:29:19-70
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+69            android:authorities="com.yourname.qrattendance.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/4c2924f70e8c04987f83fcfd1bb151d3/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/4c2924f70e8c04987f83fcfd1bb151d3/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/4c2924f70e8c04987f83fcfd1bb151d3/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+79                android:value="androidx.startup" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+80        </provider>
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+88
+89        <service
+89-->[androidx.room:room-runtime:2.6.1] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/72616146986b29e55bbb83e3d42d6d2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+90            android:name="androidx.room.MultiInstanceInvalidationService"
+90-->[androidx.room:room-runtime:2.6.1] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/72616146986b29e55bbb83e3d42d6d2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+91            android:directBootAware="true"
+91-->[androidx.room:room-runtime:2.6.1] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/72616146986b29e55bbb83e3d42d6d2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.6.1] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/72616146986b29e55bbb83e3d42d6d2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113
+114        <activity
+114-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+115            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+115-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+116            android:clearTaskOnLaunch="true"
+116-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+117            android:screenOrientation="sensorLandscape"
+117-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+118            android:stateNotNeeded="true"
+118-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+119            android:theme="@style/zxing_CaptureTheme"
+119-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+120            android:windowSoftInputMode="stateAlwaysHidden" />
+120-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/eshwarchowdaryt/.gradle/caches/transforms-3/d819a9be04c8afc09424f608171617eb/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+121    </application>
+122
+123</manifest>
